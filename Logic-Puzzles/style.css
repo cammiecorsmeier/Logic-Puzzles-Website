@@ -1,0 +1,125 @@
+.card{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.card-body{
+  text-align: center;
+  clear: left;
+}
+
+.guessButton {
+  text-align: center;
+  position: relative;
+}
+
+.button {
+  font-family: Spectral; 
+}
+
+.label {
+  color: white;
+}
+
+h1{
+  color: white;
+  text-align: center;
+  margin: 50px;
+  font-size: 50px;
+  font-family: Spectral; 
+   -webkit-text-stroke: 0.5px #6d84eb81;
+  }
+  
+h4{
+   -webkit-text-stroke: 0.3px #6dd2eb81;
+   color: white;
+  text-align: center;
+  margin: 50px;
+  font-size: 50px;
+  font-family: Spectral;
+}
+
+h2 {
+  color: white;
+  font-size: 40px;
+  margin-top: 50px;
+  font-family: Domine; 
+}
+
+h3 {
+  color: white;
+}
+
+body {
+  margin: auto;
+  margin-bottom: 240px;
+  background-image: linear-gradient(to bottom left, #2e2d72, #3b3991,hsl(236, 41%, 56%), #80aef2 , #a280f215)
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+    margin-top: 20px;
+    margin-bottom:20px;
+    margin-left: 280px;
+}
+
+li a {
+  display: block;
+  color: rgb(140, 224, 250);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.quote {
+  font-size: 100%;
+  margin-top: 50px;
+  text-align: center;
+  color: black;
+  font-family: Karla; 
+  border: 5px double rgb(32, 78, 230);
+  width: 550px;
+  padding: 14px 16px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-text-stroke: 0.3px #6dd2eb81;
+}
+
+.card-text {
+  color: white;
+  text-align: center;
+  font-family: Karla; 
+}
+
+.medium-instructions {
+  color: white;
+  text-align: center;
+}
+
+.btn {
+  color: #000;
+  position: absolute;
+  top:5px;
+  left:5px;
+}
+
+.source{
+position: absolute;
+left:0px;
+bottom:0px;
+font-family: Karla;
+}

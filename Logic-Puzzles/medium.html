@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+<!-- links resources for styling -->
+    <href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral&display=swap" rel="stylesheet">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,300;1,400&display=swap" rel="stylesheet">
+  </head>
+  
+  <body>
+  <!-- sets up the riddles card -->
+    <h1 class="title">Medium Puzzle</h1>
+      <p class="medium-instructions">What is the missing number in this image?</p>
+  <!-- declares the images -->
+  <div id="medium2" class="card-body">
+  <div id="correctImage2" class="card-body">
+    <img src="medium.jpg" class="center-block" alt="...">
+  </div>
+  </div>
+  <!-- declares the buttons-->
+  <div class="guessButton mx-auto">
+    <label for="guessButton2" class="label">Guess HERE</label>
+    <input type="text" id="medGuess" name="medGuess"><br><br>
+    <input class="button" id="medSubmit" type="submit" value="Submit">
+    <input class="button" id="nextButton2" type="submit" value="Next">
+  </div>
+  <!-- home button -->
+  <a href="index.html" class="btn" id="home"><i class="homeButton"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+  <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z" onclick="location.href='index.html';" />
+</svg></i></a>
+
+<div class="source"
+<p>Puzzles from: https://puzzles9.com/puzzles/number-sequence-puzzles-with-answers/</p>
+</div>
+
+  <!-- links our js page -->
+  <script type="text/javascript" src="medium.js"></script>
+  </body>
+</html>
+
+<!-- credit: https://puzzles9.com/puzzles/number-sequence-puzzles-with-answers/ -->

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+<!-- links resources for styling -->
+    <href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,300;1,400&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+  <h1 class="title">Hard Riddle</h1>
+  <div class="card" style="width: 25rem;">
+  <p class="card-text">Watch the video and solve the riddle</p>
+  <div id="correctImage3" class="card-body">
+  <div style="height: 0; padding-bottom: calc(56.25%); position:relative; width: 100%;"><iframe allow="autoplay; gyroscope;" allowfullscreen height="100%" referrerpolicy="strict-origin" src="https://www.kapwing.com/e/60d4d5d3d47b5801178a60dd" style="border:0; height:100%; left:0; overflow:hidden; position:absolute; top:0; width:100%" title="Embedded content made on Kapwing" width="100%"></iframe>
+  </div>
+  </div>
+  <div class="guessButton mx-auto" style= "position:relative; top:8px;">
+    <label for="guessButton3" class="label">Guess HERE</label>
+    <input class="button" type="text" id="hardGuess" name="hardGuess"><br><br>
+    <input class="button" id= "hardSubmit" type="submit" value="Submit">
+  </div>
+<!-- home button -->
+<a href="index.html" class="btn" id="home"><i class="homeButton"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+  <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z" onclick="location.href='index.html';" />
+</svg></i></a>
+
+<div class="source">
+<p>Puzzle from: http://www.youtube.com/user/TEDEducation</p>
+</div>
+
+<!--link to js page-->
+ <script type="text/javascript" src="hard.js"></script>
+  </body>
+</html>
